@@ -1,48 +1,60 @@
-🧙‍♂️ Backend Wizards Stage 0: Dynamic Profile Endpoint
+🧙‍♂️ Backend Wizards Stage 0: Dynamic Profile Endpoint:
+
 This project implements the required GET /me RESTful API endpoint for the Backend Wizards Stage 0 task. It is built using Node.js, Express, and TypeScript and has environment variable configuration, and external API integration.
 
-📦 Prerequisites
+📦 Prerequisites:
+
 Ensure you have the following installed:
 
 Node.js (v18.x or higher is recommended)
 
 Yarn
 
-⚙️ Setup and Installation
+⚙️ Setup and Installation:
+
 Follow these steps to set up and run the project locally.
 
-1. Clone the repository
-`git clone git@github.com:JoshTeflon/HNG-BE-Stage-0.git`
-`cd hng-me-api`
+1. Clone the repository:
 
-2. Install Dependencies
-`yarn install`
+  `git clone git@github.com:JoshTeflon/HNG-BE-Stage-0.git`
 
-3. Environment Configuration
-Create a file named `.env` in the root directory of the project. This file stores your profile information required by the endpoint.
+  `cd hng-me-api`
 
-# ENV Configuration
-USER_EMAIL="your.email@example.com"
-USER_NAME="Your Full Name"
-USER_STACK="Your tech stack"
-CAT_FACT_API_URL="[https://catfact.ninja/fact](https://catfact.ninja/fact)"
-PORT=3000
+2. Install Dependencies:
 
-4. Build the Project
-This command compiles the TypeScript files (.ts) in src/ into JavaScript files (.js) in the dist/ directory.
+  `yarn install`
 
-   `yarn build`
+3. Environment Configuration:
+
+  Create a file named `.env` in the root directory of the project and add the following values.
+
+  USER_EMAIL="your.email@example.com"
+
+  USER_NAME="Your Full Name"
+
+  USER_STACK="Your tech stack"
+
+  CAT_FACT_API_URL="[https://catfact.ninja/fact](https://catfact.ninja/fact)"
+
+  PORT=3000
+
+4. Build the Project:
+
+  This command compiles the TypeScript files (.ts) in src/ into JavaScript files (.js) in the dist/ directory.
+
+  `yarn build`
 
 5. Start the Server
-This command runs the compiled JavaScript entry point, dist/server.js, using Node.
+  This command runs the compiled JavaScript entry point, dist/server.js, using Node.
 
-    `yarn start`
-🚀 Server will be running at http://localhost:3000
+  `yarn start`
+
+  🚀 Server will be running at http://localhost:3000
 
 
 📚 Key Dependencies
-typescript
-express
-axios
-dotenv
-cors
+  typescript
+  express
+  axios
+  dotenv
+  cors
