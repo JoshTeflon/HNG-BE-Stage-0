@@ -6,9 +6,9 @@ This project implements the required GET /me RESTful API endpoint for the Backen
 
 Ensure you have the following installed:
 
-Node.js (v18.x or higher is recommended)
+  Node.js (v18.x or higher is recommended)
 
-Yarn
+  Yarn
 
 ⚙️ Setup and Installation:
 
@@ -16,45 +16,51 @@ Follow these steps to set up and run the project locally.
 
 1. Clone the repository:
 
-  `git clone git@github.com:JoshTeflon/HNG-BE-Stage-0.git`
+    `git clone git@github.com:JoshTeflon/HNG-BE-Stage-0.git`
 
-  `cd hng-me-api`
+    `cd hng-me-api`
 
 2. Install Dependencies:
 
-  `yarn install`
+    `yarn install`
 
 3. Environment Configuration:
 
-  Create a file named `.env` in the root directory of the project and add the following values.
+    Create a file named `.env` in the root directory of the project and add the following values.
 
-  USER_EMAIL="your.email@example.com"
+    USER_EMAIL="your.email@example.com"
 
-  USER_NAME="Your Full Name"
+    USER_NAME="Your Full Name"
 
-  USER_STACK="Your tech stack"
+    USER_STACK="Your tech stack"
 
-  CAT_FACT_API_URL="[https://catfact.ninja/fact](https://catfact.ninja/fact)"
+    CAT_FACT_API_URL="[https://catfact.ninja/fact](https://catfact.ninja/fact)"
 
-  PORT=3000
+    PORT=3000
 
 4. Build the Project:
 
-  This command compiles the TypeScript files (.ts) in src/ into JavaScript files (.js) in the dist/ directory.
+    This command compiles the TypeScript files (.ts) in src/ into JavaScript files (.js) in the dist/ directory.
 
-  `yarn build`
+    `yarn build`
 
 5. Start the Server
-  This command runs the compiled JavaScript entry point, dist/server.js, using Node.
 
-  `yarn start`
+    This command runs the compiled JavaScript entry point, dist/server.js, using Node.
 
-  🚀 Server will be running at http://localhost:3000
+    `yarn start`
+
+    🚀 Server will be running at http://localhost:3000
 
 
 📚 Key Dependencies
+
   typescript
+
   express
+
   axios
+
   dotenv
+
   cors
