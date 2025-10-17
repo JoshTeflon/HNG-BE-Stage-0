@@ -12,7 +12,7 @@ Yarn (or npm)
 Follow these steps to set up and run the project locally.
 
 1. Clone the repository
-git clone <REPO_URL>
+git clone git@github.com:JoshTeflon/HNG-BE-Stage-0.git
 cd hng-me-api
 
 2. Install Dependencies
